@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HopeCare Hospital</title>
+
+    <meta name="description" content="HopeCare Hospital provides quality healthcare services.">
+    <meta name="author" content="HopeCare Hospital">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="logo-area">
+        <img src="images/logo.png" alt="Hospital Logo" class="logo">
+        <h1>HopeCare Hospital</h1>
+    </div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#appointment">Appointment</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+        <h2>Your Health, Our Priority</h2>
+        <p>Reliable healthcare for everyone</p>
+        <a href="#appointment" class="btn">Book Appointment</a>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+
+        <div class="service-box">Outpatient Care</div>
+        <div class="service-box">Emergency Services</div>
+        <div class="service-box">Laboratory</div>
+    </section>
+
+    <!-- APPOINTMENT FORM -->
+    <section id="appointment" class="appointment">
+        <h2>Book an Appointment</h2>
+
+        <form id="appointmentForm">
+            <input type="text" id="name" placeholder="Full Name">
+            <input type="email" id="email" placeholder="Email Address">
+
+            <select id="department">
+                <option value="">Select Department</option>
+                <option>General Medicine</option>
+                <option>Pediatrics</option>
+                <option>Laboratory</option>
+                <option>Emergency</option>
+            </select>
+
+            <textarea id="message" placeholder="Describe your issue"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Kumasi, Ghana</p>
+        <p>+233 24 000 0000</p>
+        <p>info@hopecarehospital.com</p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 HopeCare Hospital. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
